@@ -1,0 +1,250 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One|Macondo+Swash+Caps|Kaushan+Script|Niconne);
+/* 
+	Lightest Green: #E4F8DC
+	Pale Green: #C3E8B6
+	Turquoise: #3B5863
+	More Purple: #70256C
+	Light Gray: #BFBFBF
+	Pale Blue: #C8EAFF;
+*/
+body {
+	background: #3B5863;
+	background: url("../media/images/bg.jpg");
+	font-family: 'Poiret One', cursive;
+	position: relative;
+}
+.wrapper {
+	background: rgba(91, 122, 140, 0.77);
+	border-radius: 50px;
+	box-shadow: 0 0 7px 3px #063d44;
+	margin: 1% auto;
+	padding-bottom: 1%;
+	width: 95%;
+	position: relative;
+}
+header {
+	background: rgba(174, 245, 237, 0.21);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0 1px 4px #65b5b7;
+	text-shadow: 0 0 2px #292969;
+}
+header h1 {
+	font: bold 4em  "Niconne",cursive;
+	margin-bottom: 0;
+	padding-top: 1%;
+}
+header h2 {
+	letter-spacing: 1px;
+	margin-top: -0.5em;
+	padding-bottom: 0.3em;
+}
+h1, header h2 {
+	color: #fff;
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+}
+h1 {
+	font-family:  "Macondo Swash Caps",cursive;
+    font-size: 1.8em;
+    margin: 3% auto 0;
+}
+a {
+	color: #E4F8DC;
+	text-decoration: none;
+}
+a:hover {
+	color: #C3E8B6;	
+}
+article {
+	margin: 0 auto 1%;
+	text-align: center;
+	width: 98%;
+}
+article h3 {
+	color: #fff;
+}
+article h3 span {
+    display: block;
+    font-size: 0.7em;
+    margin: 0 auto;
+    text-align: center;
+}
+figure {
+	background-color: #fff;
+	border-radius: 50px;
+	box-shadow: 0 0 8px 2px #325171;
+	color: #000;
+	display: inline-block;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	width: 26%;
+}
+figure > a {
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 1px;
+	color: #000;
+	display: block;
+	height: 200px;
+	margin: 4% auto 0;
+	text-indent: -9999px;
+	width: 300px;
+}
+figure > a#stars {
+	background-image: url('../media/images/stars.jpg');
+}
+figure > a#bubbles {
+	background-image: url('../media/images/bubbles.jpg');
+}
+figure > a#water {
+	background-image: url('../media/images/water.jpg');
+}
+figure > a#fish {
+	background-image: url('../media/images/fish.jpg');
+}
+figure > a#flowers {
+	background-image: url('../media/images/flowers.jpg');
+}
+figure > a#clouds {
+	background-image: url('../media/images/clouds.jpg');
+}
+figure > a#stars:hover {
+	background-image: url('../media/images/stars_p.jpg');
+}
+figure > a#bubbles:hover {
+	background-image: url('../media/images/bubbles_p.jpg');
+}
+figure > a#water:hover {
+	background-image: url('../media/images/water_p.jpg');
+}
+figure > a#fish:hover {
+	background-image: url('../media/images/fish_p.jpg');
+}
+figure > a#flowers:hover {
+	background-image: url('../media/images/flowers_p.jpg');
+}
+figure > a#clouds:hover {
+	background-image: url('../media/images/clouds_p.jpg');
+}
+figcaption > h1 {
+	color: #000;
+	letter-spacing: 1px;
+}
+figcaption > p:first-of-type {
+	font-size: 0.8em;
+	margin-top: 0;
+}
+p.descrip {
+	font-size: .8em;
+	margin-top: 0;
+}
+.hidden {
+	display: none;
+}
+#vidscreen {
+	background: rgba(0, 0, 0, 0.83);
+	min-width: 1285px;
+	overflow: scroll;
+	position: fixed;
+		top: 0px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+	width: 100%;
+	z-index: 2;
+}
+.vid {
+	padding-top: 2%;
+	text-align: center;
+}
+.close {
+	color: #fff;
+	position: fixed;
+	top: 25px;
+	left: 25px;
+}
+.vid > video { 
+	margin-top: 2%;
+	width: 800px;
+	z-index: 5;
+}
+#bubbles > a#close {
+    color: #fff;
+    left: 50px;
+    position: fixed;
+    top: 20px;
+}
+#vidscreen .descrip {
+    background: none repeat scroll 0 0 rgba(1, 0, 0, 0.69);
+    border-radius: 50px;
+    color: #fff;
+    margin: 2em auto 0;
+    width: 88%;
+}
+figure {
+	height: 540px;
+	vertical-align: top;
+}
+figcaption p {
+    font-size: 0.9em;
+    margin: 0.5em auto;
+}
+figcaption p span {
+	font-weight: bold;
+}
+figcaption p:nth-of-type(3), figcaption p:nth-of-type(4){
+	text-align: left;
+}
+figcaption a {
+    color: #6d8e61;
+}
+figcaption a:hover {
+	color: #17B55F;
+}
+
+.downloads {
+    background: none repeat scroll 0 0 #000;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    color: #fff;
+    left: 0;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    position: fixed;
+    top: 100px;
+    width: 300px;
+}
+.downloads > p:first-of-type {
+	font-size: 1.3em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.descrip > p {
+    font-size: 0.8em;
+    margin-top: 0;
+}
+.downloads > p:nth-of-type(n+2) {
+    text-align: left;
+	margin-left: 10px;
+	margin-bottom: 0;
+}
+.downloads > a {
+	display: block;
+	font-size: 0.7em;
+	margin: 1em 0;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 5px;
+}
+footer > p {
+	color: #fff;
+	font-size: 0.8em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+
